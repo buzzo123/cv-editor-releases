@@ -106,4 +106,4 @@ CV Editor is built on the work of others, included under their licences:
 
 ---
 
-<div align="center"><sub>CV Editor · © 2026 Michele Buzzoni</sub></div>
+<div align="center"><sub>CV Editor · © 2026 Buzzo</sub></div>
