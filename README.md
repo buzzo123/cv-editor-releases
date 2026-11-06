@@ -73,7 +73,13 @@ Not sure which Mac you have? Open  → *About This Mac*: it says either "Chip: A
 
 ## Install
 
-**Mac** — open the `.dmg` and drag *CV Editor* into *Applications*. The first time, **right-click the app → Open → Open**: the app is not notarised by Apple, so macOS asks once. After that it opens normally.
+**Mac** — open the `.dmg` and drag *CV Editor* into *Applications*. The first time, macOS says *"Apple could not verify "CV Editor" is free of malware"*, because the app is not notarised by Apple:
+
+1. click **Done** (not *Move to Trash*);
+2. open **System Settings → Privacy & Security** and scroll down to *Security*;
+3. next to *"CV Editor" was blocked to protect your Mac*, click **Open Anyway**, confirm with your password or Touch ID and click **Open Anyway** again.
+
+This is needed only once. Updates downloaded by the app usually open directly; if macOS asks again, do the same.
 
 **Windows** — run `CV-Editor-Setup.exe`. If "Windows protected your PC" appears, click **More info → Run anyway**. It installs for your user only and does not need an administrator password.
 

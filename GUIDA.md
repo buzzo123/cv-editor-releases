@@ -4,7 +4,7 @@ CV Editor serve a modificare il CV e la lettera di presentazione senza toccare L
 
 ## Primo avvio
 1. Scarica l'app da [github.com/buzzo123/cv-editor-releases](https://github.com/buzzo123/cv-editor-releases) e installala:
-   - **Mac**: apri il `.dmg` e trascina *CV Editor* in Applicazioni. La prima volta fai clic destro sull'app → **Apri** → **Apri**, perché l'app non è firmata da Apple.
+   - **Mac**: apri il `.dmg` e trascina *CV Editor* in Applicazioni. La prima volta macOS dice che non può verificare l'app, perché non è firmata da Apple: premi **Fine** (non *Sposta nel Cestino*), apri **Impostazioni di Sistema → Privacy e sicurezza**, scorri fino a *Sicurezza* e premi **Apri comunque** accanto a "CV Editor", poi conferma con la password e di nuovo **Apri comunque**. Serve solo la prima volta. Gli aggiornamenti scaricati dall'app di solito si aprono senza questo passaggio; se macOS lo chiede di nuovo, si fa allo stesso modo.
    - **Windows**: esegui `CV-Editor-Setup.exe`. Se compare "Windows ha protetto il PC", scegli **Ulteriori informazioni → Esegui comunque**.
 2. Apri **⚙ Impostazioni**, inserisci nome ed e-mail (servono a firmare le versioni) e fai **Accedi con GitHub**: si apre il browser, incolla il codice mostrato dall'app e autorizza.
 3. Nella schermata iniziale scegli **Scarica** (il CV viene scaricato da GitHub nella cartella che scegli) oppure **Apri la cartella del CV…** se è già sul computer. Per partire da zero usa **Crea un nuovo CV…** (vedi sotto).
