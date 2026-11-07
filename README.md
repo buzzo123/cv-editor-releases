@@ -40,7 +40,7 @@ CV Editor puts a friendly editor in front of the real template. You fill in form
 - **Versions** — save named versions, browse the history with a preview of each one, restore any of them.
 - **GitHub sync** — keep the CV in your own private repository and work on it from any computer.
 - **A new CV in a minute** — start from a sample, from an empty CV or from a file, in English, Italian or French.
-- **Export and import** — save the whole content of a CV (texts, letter, colour, photo) in one JSON file and start a new CV from it.
+- **Export and import** — save the whole content of a CV (texts, letter, colour, photo) in one JSON file, start a new CV from it, or bring only the parts you pick into a CV you already have.
 - **AI-assisted start** — copy a ready-made prompt into ChatGPT or Claude together with your old CV, and import the JSON it writes.
 - **Light and dark theme**, interface in **English, Italian and French**.
 - **Nothing else to install** — TeX Live 2022 (XeLaTeX) is built in.

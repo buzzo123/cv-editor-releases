@@ -55,9 +55,17 @@ Da quel momento **Sincronizza** tiene allineato il CV online. Se hai già creato
 - **Cronologia** mostra tutte le versioni con l'anteprima del PDF. *Ripristina questa versione* la riporta come nuova versione, senza cancellare niente.
 
 ## Esportare e importare i contenuti
-- **Esporta contenuti** (sopra l'anteprima, accanto a *Esporta PDF*, oppure nel menu *File*) salva in un file `.json` tutti i contenuti del CV: dati, sezioni, lettera, colore, lingua e foto. Niente impaginazione né PDF.
-- Per ripartire da quel file: **Crea un nuovo CV…** → **Da un file** → **Scegli il file…**. Nome, cognome, e-mail e lingua vengono presi dal file e puoi cambiarli prima di premere **Crea il CV**.
-- **Non hai il file?** Premi *Preparalo con un assistente IA*: l'app mostra un testo pronto, con un esempio. Copialo in ChatGPT, Claude o un altro assistente, incolla alla fine il tuo CV attuale (anche copiato da Word o da un PDF), salva la risposta in un file `.json` e importalo con *Da un file*. Ricorda che così il tuo CV viene inviato al servizio dell'assistente.
+Le tre azioni sono nel menu **Contenuti**, in alto a destra (e nel menu *File*).
+
+- **Esporta contenuti** salva in un file `.json` tutti i contenuti del CV: dati, sezioni, lettera, colore, lingua e foto. Niente impaginazione né PDF.
+- **Importa contenuti**, con un CV aperto, sostituisce solo le parti che scegli:
+  1. scegli il file `.json`;
+  2. l'app elenca cosa c'è nel file: intestazione, foto, colore, ogni sezione, nota privacy e lettera. Per ogni sezione dice se prende il posto di una sezione del CV (stesso nome o stesso identificativo) oppure se è **nuova**; *uguale a ora* indica che non cambierebbe nulla;
+  3. spunta le parti da sostituire e premi **Importa**. Quelle che non spunti restano come sono.
+
+  Una sezione sostituita resta al suo posto e mantiene la scelta *visibile/nascosta*; una sezione nuova viene messa vicino a quelle che la circondano nel file. La lingua del CV non cambia. Se il risultato non ti piace, **Annulla** (nel messaggio che compare, o ⌘Z / Ctrl+Z) riporta tutto com'era.
+- Per **ripartire da un file in un CV nuovo**: **Crea un nuovo CV…** → **Da un file** → **Scegli il file…**. Nome, cognome, e-mail e lingua vengono presi dal file e puoi cambiarli prima di premere **Crea il CV**.
+- **Non hai il file?** *Prepara il file con un assistente IA* (nel menu *Contenuti*, oppure *Preparalo con un assistente IA* in *Da un file*) mostra un testo pronto, con un esempio. Copialo in ChatGPT, Claude o un altro assistente, incolla alla fine il tuo CV attuale (anche copiato da Word o da un PDF), salva la risposta in un file `.json` e importalo. Ricorda che così il tuo CV viene inviato al servizio dell'assistente.
 - Se il file ha un errore, l'app dice cosa non va (per esempio un campo mancante) e non crea niente.
 
 ## Aggiornamenti
