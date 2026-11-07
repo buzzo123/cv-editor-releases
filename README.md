@@ -36,10 +36,12 @@ CV Editor puts a friendly editor in front of the real template. You fill in form
 - **Live PDF preview** — the genuine Awesome-CV layout, rebuilt a moment after every change.
 - **Friendly editors** for the header, summary, experience, education, certifications, skills and privacy note, with **bold** and *italic*, drag-and-drop reordering, duplicate and hide.
 - **Cover letter** that shares the header, photo and colours of the CV.
-- **Photo and colours** — crop your photo into a circle or a square, choose the accent colour.
+- **Photo and colours** — crop your photo into a circle or a square, choose the accent colour, or pick it from the photo or anywhere on screen with the eyedropper.
 - **Versions** — save named versions, browse the history with a preview of each one, restore any of them.
 - **GitHub sync** — keep the CV in your own private repository and work on it from any computer.
-- **A new CV in a minute** — start from a sample or from an empty CV, in English, Italian or French.
+- **A new CV in a minute** — start from a sample, from an empty CV or from a file, in English, Italian or French.
+- **Export and import** — save the whole content of a CV (texts, letter, colour, photo) in one JSON file and start a new CV from it.
+- **AI-assisted start** — copy a ready-made prompt into ChatGPT or Claude together with your old CV, and import the JSON it writes.
 - **Light and dark theme**, interface in **English, Italian and French**.
 - **Nothing else to install** — TeX Live 2022 (XeLaTeX) is built in.
 - **Updates built in** — the app tells you when a new version is out, shows what changed and downloads it for you.

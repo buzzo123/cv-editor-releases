@@ -28,6 +28,7 @@ L'app crea la cartella con tutto il necessario, attiva le versioni e salva la pr
 
 ## Colore e foto (Aspetto)
 - **Colore primario**: scegli un colore dalla tavolozza, dal selettore o scrivendo il codice HEX. *Ripristina il colore originale* torna al colore iniziale.
+- **Colore da un'immagine**: *Preleva un colore* trasforma il puntatore in un contagocce: clicca su un punto qualsiasi dello schermo (la foto, l'anteprima o il logo di un'azienda aperto in un'altra finestra), oppure Esc per annullare. Se il CV ha una foto, sotto *Colori della foto* trovi già i suoi colori principali.
 - **Foto**: *Cambia foto…* → inquadra il viso (trascina e usa lo zoom) → *Usa questa foto*. Puoi scegliere cerchio o quadrato, il bordo e la posizione (sinistra o destra). *Reinquadra* riparte dalla foto originale.
 
 ## Lingua
@@ -52,6 +53,12 @@ Da quel momento **Sincronizza** tiene allineato il CV online. Se hai già creato
 - **Sincronizza** invia le tue versioni a GitHub e scarica quelle nuove. Se ci sono modifiche non ancora salvate, l'app ti chiede prima di salvare una versione.
 - Se il CV è stato modificato sia qui sia altrove, l'app chiede se **tenere la tua versione** o **usare quella online**. L'altra versione non va persa: resta conservata in un branch di backup.
 - **Cronologia** mostra tutte le versioni con l'anteprima del PDF. *Ripristina questa versione* la riporta come nuova versione, senza cancellare niente.
+
+## Esportare e importare i contenuti
+- **Esporta contenuti** (sopra l'anteprima, accanto a *Esporta PDF*, oppure nel menu *File*) salva in un file `.json` tutti i contenuti del CV: dati, sezioni, lettera, colore, lingua e foto. Niente impaginazione né PDF.
+- Per ripartire da quel file: **Crea un nuovo CV…** → **Da un file** → **Scegli il file…**. Nome, cognome, e-mail e lingua vengono presi dal file e puoi cambiarli prima di premere **Crea il CV**.
+- **Non hai il file?** Premi *Preparalo con un assistente IA*: l'app mostra un testo pronto, con un esempio. Copialo in ChatGPT, Claude o un altro assistente, incolla alla fine il tuo CV attuale (anche copiato da Word o da un PDF), salva la risposta in un file `.json` e importalo con *Da un file*. Ricorda che così il tuo CV viene inviato al servizio dell'assistente.
+- Se il file ha un errore, l'app dice cosa non va (per esempio un campo mancante) e non crea niente.
 
 ## Aggiornamenti
 - Quando esce una versione nuova, in cima alla finestra compare **È disponibile CV Editor …**. Premi **Novità e download** per vedere cosa cambia (l'elenco è in inglese) e poi **Scarica**.
