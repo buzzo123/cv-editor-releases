@@ -23,6 +23,7 @@ L'app crea la cartella con tutto il necessario, attiva le versioni e salva la pr
 - A sinistra ci sono le sezioni: **Aspetto** (colore e foto), **Intestazione** (nome, qualifica, contatti), le sezioni del CV, **Nota privacy** e **Lettera**.
 - I testi supportano **grassetto** (⌘B / Ctrl+B) e *corsivo* (⌘I / Ctrl+I), con i pulsanti **G** e **C** che compaiono nel campo.
 - Le voci (esperienze, titoli, punti elenco, competenze) si riordinano trascinando ⋮⋮ oppure con ↑ ↓. Con ⧉ si duplicano, con ✕ si eliminano.
+- **Competenze**: nel campo a sinistra (la categoria) premi **Invio** per andare a capo, utile per i nomi lunghi. Le competenze a destra vanno a capo da sole e la tabella resta sempre dentro la pagina: se una categoria è molto larga, la colonna di destra si restringe.
 - Una sezione si può nascondere togliendo la spunta *Mostra questa sezione nel CV*.
 - Le modifiche vengono salvate da sole sul computer. **Annulla / Ripeti** sono le frecce in alto (oppure ⌘Z / ⇧⌘Z fuori dai campi).
 
